@@ -14,16 +14,15 @@ switch(grade) {
 document.write("exit"); */
 
 grade = 'A';
-document.write("Entering Switch Block");
+document.write("Entering Switch Block <br />");
 
 switch(grade) {
-    case 'A' : document.write("Good Job");
+    case 'A' : document.write("Good Job<br />");
     
-    case 'B' : document.write('nice');
+    case 'B' : document.write('nice <br />');
     
-    case 'C' : document.write('bad');
+    case 'C' : document.write('bad <br />');
     
-
-    default: document.write('Unknown grade');
+    default: document.write('Unknown grade <br />');
 }
 document.write("exit");
