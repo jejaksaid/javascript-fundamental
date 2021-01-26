@@ -8,7 +8,7 @@
 // }
 
 // document.write('Done..')
-
+/*
 // do while
 var count = 0;
 document.write("Starting do while.. <br />")
@@ -21,4 +21,14 @@ do {
 // while
 while(count < 10);
 // print
-document.write('Done.. ') 
+document.write('Done.. ') */
+
+
+var text = "";
+var i = 0;
+
+while (i < 10) {
+    text += "<br> The Number is " + i;
+    i++;
+}
+document.write(text)
