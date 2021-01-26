@@ -23,7 +23,18 @@ while(count < 10);
 // print
 document.write('Done.. ') */
 
+var text = "";
+var i = 4;
 
+do {
+    text += "<br> The number is " + i;
+    i++;
+}
+while(i < 15);
+document.write(text)
+
+// w3scholl
+/*
 var text = "";
 var i = 0;
 
@@ -31,4 +42,4 @@ while (i < 10) {
     text += "<br> The Number is " + i;
     i++;
 }
-document.write(text)
+document.write(text) */
