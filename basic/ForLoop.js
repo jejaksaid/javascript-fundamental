@@ -4,7 +4,8 @@
     }
 */
 
-// declaration variable
+// declaring variable
+/*
 var count;
 document.write('Starting For Loop' + '<br />');
 
@@ -15,3 +16,14 @@ for (count = 0; count < 10000000; count++ ) {
 }
 // printing for loop
 document.write('For loop done, stopped..');
+
+
+*/
+// from w3school
+var cars = ["BMW", "Mercy", "Lamborgini", "Audi"];
+var i, len, text;
+
+for (i = 0, len = cars.length, text=""; i < len; i++) {
+    text +=cars[i] + "<br>";
+}
+document.write(text);
