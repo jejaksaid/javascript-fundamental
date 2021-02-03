@@ -9,7 +9,7 @@ document.write("Book name : " + book.subject + "<br>");
 document.write("Author name : " + book.author + "<br>")
 
 */
-
+/*
 function book(title, author) {
     this.title = title;
     this.author = author;
@@ -19,3 +19,23 @@ var myBook = new book("Python", "Saidramadhan");
 
 document.write("Book title is : " + myBook.title + "<br>");
 document.write("Book author is : " + myBook.author + "<br>");
+*/
+
+
+// define a function which will work as a method 
+function addPrice(amount) {
+    this.price = amount;
+}
+
+function book(title, author) {
+    this.title = title;
+    this.author = author;
+    this.addPrice = addPrice; // assign that method as property
+}
+
+var myBook = new book("Javascript", "saidramadhan");
+myBook.addPrice(100);
+
+document.write("Book title : " + myBook.title + "<br>");
+document.write("Book author : " + myBook.author + "<br>")
+document.write("Book Price : " + myBook.price + "<br>")
