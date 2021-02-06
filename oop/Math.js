@@ -17,3 +17,6 @@ var x = Math.round(0.67);
 document.getElementById("demo").innerHTML = x;
 */
 
+// math method to get square root of number 
+var x = Math.sqrt(3);
+document.getElementById("demo").innerHTML = x;
